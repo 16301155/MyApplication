@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myungger.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Hey"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:label="Hey">
+        </activity>
+
+        <activity
+            android:name=".activity.TotalTraining"
+            android:parentActivityName=".activity.MainActivity">
+        </activity>
+c
+        <activity
+            android:name=".activity.ZeroBasis"
+            android:parentActivityName=".activity.AllClass">
+        </activity>
+
+        <activity
+            android:name=".activity.Eric"
+            android:parentActivityName=".activity.Coach">
+        </activity>
+
+        <activity
+            android:name=".activity.Coach"
+            android:parentActivityName=".activity.MainActivity">
+        </activity>
+
+        <activity
+            android:name=".activity.AllClass"
+            android:parentActivityName=".activity.MainActivity">
+        </activity>
+
+        <activity
+            android:name=".activity.Create"
+            android:parentActivityName=".activity.Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.Login" />
+        </activity>
+
+        <activity android:name=".activity.Login"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
