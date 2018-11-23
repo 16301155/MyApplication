@@ -2,26 +2,27 @@ package com.example.myungger.myapplication.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.myungger.myapplication.R;
 import com.example.myungger.myapplication.entity.FragmentAdapter;
 import com.example.myungger.myapplication.entity.TestThread;
+import com.example.myungger.myapplication.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     private FragmentAdapter fragmentAdapter;
     private ProgressBar progressBar;
