@@ -3,11 +3,6 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
-        <entry key="imageWizard">
-          <value>
-            <PersistentState />
-          </value>
-        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -19,11 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="height" value="200" />
-                            <entry key="outputName" value="ic_china" />
-                            <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="C:\Users\MyungGer\Desktop\china.svg" />
-                            <entry key="width" value="200" />
+                            <entry key="outputName" value="ic_wechat" />
+                            <entry key="sourceFile" value="C:\Users\MyungGer\Desktop\微信.svg" />
                           </map>
                         </option>
                       </PersistentState>
